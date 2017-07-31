@@ -13,14 +13,15 @@ html, body {
   width: 80px;
   margin-top: 40px;
   position: fixed;
-  border-radius: 0px 2px 2px 0px; }
+  border-radius: 0px 2px 2px 0px;
+  z-index: 100; }
   #header-icon img {
     width: 50px;
     padding: 6px 10px;
     float: right; }
 
 #main-content-container {
-  margin: 50px;
+  margin: 6vh;
   height: 100%; }
 
 #section-one .image-container {
@@ -29,12 +30,21 @@ html, body {
   top: 30vh; }
 #section-one img {
   width: 100%; }
+#section-one .overlay {
+  mix-blend-mode: lighten; }
+#section-one .red-top {
+  position: absolute;
+  width: 100%;
+  top: 6vh;
+  left: 0;
+  z-index: 10; }
 #section-one .backing {
   background-color: #ED0F38;
-  height: 50vh; }
+  height: 55vh; }
 #section-one #section-one-ipad {
-  margin-top: 92px; }
+  margin-top: 95px; }
 #section-one #section-one-iphone {
-  margin-top: 141px; }
+  margin-top: 193px;
+  margin-left: 43px; }
 
 /*# sourceMappingURL=base.css.map */

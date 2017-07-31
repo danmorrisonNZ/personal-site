@@ -23,6 +23,7 @@ html, body{
   margin-top: 40px;
   position: fixed;
   border-radius: 0px 2px 2px 0px;
+  z-index: 100;
   img{
     width: 50px;
     padding: 6px 10px;
@@ -31,7 +32,7 @@ html, body{
 }
 
 #main-content-container{
-  margin:50px;
+  margin:6vh;
   height: 100%;
 }
 
@@ -44,14 +45,25 @@ html, body{
   img{
     width: 100%;
   }
+  .overlay{
+    mix-blend-mode:lighten;
+  }
+  .red-top{
+    position: absolute;
+    width: 100%;
+    top: 6vh;
+    left: 0;
+    z-index: 10;
+  }
   .backing{
     background-color: $red;
-    height: 50vh;
+    height: 55vh;
   }
   #section-one-ipad{
-    margin-top:92px;
+    margin-top:95px;
   }
   #section-one-iphone{
-    margin-top:141px;
+    margin-top:193px;
+    margin-left: 43px;
   }
 }
