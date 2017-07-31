@@ -34,3 +34,10 @@ html, body{
   margin:50px;
   height: 100%;
 }
+
+#section-one{
+  .backing{
+    background-color: $red;
+    height: 50vh;
+  }
+}

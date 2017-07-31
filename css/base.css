@@ -23,4 +23,8 @@ html, body {
   margin: 50px;
   height: 100%; }
 
+#section-one .backing {
+  background-color: #ED0F38;
+  height: 50vh; }
+
 /*# sourceMappingURL=base.css.map */
