@@ -24,11 +24,17 @@ html, body {
   height: 100%; }
 
 #section-one .image-container {
-  position: absolute; }
+  position: absolute;
+  z-index: 2;
+  top: 30vh; }
 #section-one img {
   width: 100%; }
 #section-one .backing {
   background-color: #ED0F38;
   height: 50vh; }
+#section-one #section-one-ipad {
+  margin-top: 92px; }
+#section-one #section-one-iphone {
+  margin-top: 141px; }
 
 /*# sourceMappingURL=base.css.map */
