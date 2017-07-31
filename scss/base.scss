@@ -20,7 +20,7 @@ html, body{
 #header-icon{
   background-color:$charcoal;
   width: 80px;
-  margin-top: 5%;
+  margin-top: 40px;
   position: fixed;
   border-radius: 0px 2px 2px 0px;
   img{
@@ -28,4 +28,9 @@ html, body{
     padding: 6px 10px;
     float: right;
   }
+}
+
+#main-content-container{
+  margin:50px;
+  height: 100%;
 }
