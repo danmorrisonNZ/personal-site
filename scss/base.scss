@@ -16,3 +16,16 @@ html, body{
   padding: 0px;
   font-family: 'Work Sans', sans-serif;
 }
+
+#header-icon{
+  background-color:$charcoal;
+  width: 80px;
+  margin-top: 5%;
+  position: fixed;
+  border-radius: 0px 2px 2px 0px;
+  img{
+    width: 50px;
+    padding: 6px 10px;
+    float: right;
+  }
+}
