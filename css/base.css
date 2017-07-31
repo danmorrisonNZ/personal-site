@@ -25,7 +25,7 @@ html, body {
   height: 100%; }
 
 #section-one .image-container {
-  position: absolute;
+  position: fixed;
   z-index: 2;
   top: 30vh; }
 #section-one img {
