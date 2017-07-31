@@ -39,12 +39,20 @@ html, body {
   left: 0;
   z-index: 10; }
 #section-one .backing {
+  padding-top: 40px;
   background-color: #ED0F38;
-  height: 55vh; }
+  height: 50vh; }
 #section-one #section-one-ipad {
   margin-top: 95px; }
 #section-one #section-one-iphone {
   margin-top: 193px;
   margin-left: 43px; }
+
+.header-copy {
+  color: #F6F6F5;
+  padding: 0px 0px 0px 55px;
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-weight: bold; }
 
 /*# sourceMappingURL=base.css.map */

@@ -56,8 +56,9 @@ html, body{
     z-index: 10;
   }
   .backing{
+    padding-top:40px;
     background-color: $red;
-    height: 55vh;
+    height: 50vh;
   }
   #section-one-ipad{
     margin-top:95px;
@@ -66,4 +67,12 @@ html, body{
     margin-top:193px;
     margin-left: 43px;
   }
+}
+
+.header-copy{
+  color: #F6F6F5;
+  padding: 0px 0px 0px 55px;
+  margin:0;
+  font-family: 'Lora', serif;
+  font-weight: bold;
 }
