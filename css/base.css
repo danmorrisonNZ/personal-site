@@ -1,0 +1,26 @@
+html, body {
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+  background-color: #F6F6F5;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Work Sans', sans-serif; }
+
+#header-icon {
+  background-color: #666666;
+  width: 80px;
+  margin-top: 40px;
+  position: fixed;
+  border-radius: 0px 2px 2px 0px; }
+  #header-icon img {
+    width: 50px;
+    padding: 6px 10px;
+    float: right; }
+
+#main-content-container {
+  margin: 50px;
+  height: 100%; }
+
+/*# sourceMappingURL=base.css.map */
