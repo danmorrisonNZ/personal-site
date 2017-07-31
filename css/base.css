@@ -23,6 +23,10 @@ html, body {
   margin: 50px;
   height: 100%; }
 
+#section-one .image-container {
+  position: absolute; }
+#section-one img {
+  width: 100%; }
 #section-one .backing {
   background-color: #ED0F38;
   height: 50vh; }

@@ -36,6 +36,12 @@ html, body{
 }
 
 #section-one{
+  .image-container{
+    position: absolute;
+  }
+  img{
+    width: 100%;
+  }
   .backing{
     background-color: $red;
     height: 50vh;
