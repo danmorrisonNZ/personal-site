@@ -22,12 +22,13 @@ html, body {
 
 #main-content-container {
   margin: 6vh;
-  height: 100%; }
+  height: 100%;
+  margin-bottom: 1000px; }
 
 #section-one .image-container {
   position: fixed;
   z-index: 2;
-  top: 30vh; }
+  top: 25vh; }
 #section-one img {
   width: 100%; }
 #section-one .overlay {
@@ -41,18 +42,47 @@ html, body {
 #section-one .backing {
   padding-top: 40px;
   background-color: #ED0F38;
-  height: 50vh; }
+  height: 55vh; }
 #section-one #section-one-ipad {
   margin-top: 95px; }
 #section-one #section-one-iphone {
   margin-top: 193px;
   margin-left: 43px; }
+#section-one .body-copy-container {
+  position: relative;
+  z-index: 2;
+  top: 600px;
+  margin-bottom: 40px;
+  padding-bottom: 400px;
+  text-align: center;
+  display: block;
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+  background-color: rgba(246, 246, 245, 0.96);
+  mix-blend-mode: luminosity; }
+#section-one .body-copy {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  padding: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left; }
+  #section-one .body-copy a:link, #section-one .body-copy a:visited {
+    color: #ED0F38; }
+
+.lead-title {
+  position: fixed;
+  top: 10vh;
+  text-align: center;
+  width: calc(100% - 9vh);
+  font-size: 35px;
+  font-family: 'Lora', serif; }
 
 .header-copy {
   color: #F6F6F5;
   padding: 0px 0px 0px 55px;
   margin: 0;
-  font-family: 'Lora', serif;
-  font-weight: bold; }
+  font-family: 'Lora', serif; }
 
 /*# sourceMappingURL=base.css.map */
