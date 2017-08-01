@@ -1,10 +1,4 @@
-// site wide colours
-$charcoal: #666666;
-$blue: #37A9CE;
-$green: #10CE59;
-$yellow: #FFDD2B;
-$orange: #FF932D;
-$red: #ED0F38;
+@import 'colours';
 
 html, body{
   background-image: url("../images/background.png");
@@ -35,77 +29,4 @@ html, body{
   margin:6vh;
   height: 100%;
   margin-bottom: 1000px;
-}
-
-#section-one{
-  .image-container{
-    position: fixed;
-    z-index: 2;
-    top: 25vh;
-  }
-  img{
-    width: 100%;
-  }
-  .overlay{
-    mix-blend-mode:lighten;
-  }
-  .red-top{
-    position: absolute;
-    width: 100%;
-    top: 6vh;
-    left: 0;
-    z-index: 10;
-  }
-  .backing{
-    padding-top:40px;
-    background-color: $red;
-    height: 55vh;
-  }
-  #section-one-ipad{
-    margin-top:95px;
-  }
-  #section-one-iphone{
-    margin-top:193px;
-    margin-left: 43px;
-  }
-  .body-copy-container{
-    position: relative;
-    z-index: 2;
-    top:600px;
-    margin-bottom: 40px;
-    padding-bottom: 400px;
-    text-align: center;
-    display: block;
-    background-image: url("../images/background.png");
-    background-repeat: repeat;
-    background-color: rgba(246,246,245,0.96);
-    mix-blend-mode:luminosity;
-  }
-  .body-copy{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 13px;
-    padding: 10px;
-    line-height: 1.6;
-    letter-spacing: 0.8px;
-    text-align: left;
-    a:link, a:visited{
-      color: $red;
-    }
-  }
-}
-.lead-title{
-  position: fixed;
-  top: 10vh;
-  text-align: center;
-  width: calc(100% - 9vh);
-  font-size: 35px;
-  font-family: 'Lora', serif;
-}
-
-.header-copy{
-  color: #F6F6F5;
-  padding: 0px 0px 0px 55px;
-  margin:0;
-  font-family: 'Lora', serif;
 }
