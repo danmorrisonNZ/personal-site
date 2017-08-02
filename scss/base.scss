@@ -22,6 +22,10 @@ p{
   letter-spacing: 0.8px;
 }
 
+a:hover{
+  cursor: pointer;
+}
+
 #header-icon{
   background-color:$charcoal;
   width: 80px;

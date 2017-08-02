@@ -17,6 +17,9 @@ p {
   line-height: 1.6;
   letter-spacing: 0.8px; }
 
+a:hover {
+  cursor: pointer; }
+
 #header-icon {
   background-color: #666666;
   width: 80px;
