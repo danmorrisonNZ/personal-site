@@ -7,6 +7,14 @@
   background-color: #F6F6F5;
   margin-left: 10px;
   z-index: 12; }
+  .backing-square h1 {
+    text-align: center;
+    margin-top: 70px; }
+  .backing-square p {
+    margin-top: 0px;
+    text-align: center; }
+  .backing-square a:link, .backing-square a:visited {
+    color: #37A9CE; }
 
 .backing-square:before {
   content: " ";

@@ -8,6 +8,15 @@ html, body {
   padding: 0px;
   font-family: 'Work Sans', sans-serif; }
 
+h1 {
+  font-size: 35px;
+  font-family: 'lora', serif; }
+
+p {
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: 0.8px; }
+
 #header-icon {
   background-color: #666666;
   width: 80px;

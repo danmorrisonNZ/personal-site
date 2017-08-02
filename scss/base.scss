@@ -11,6 +11,17 @@ html, body{
   font-family: 'Work Sans', sans-serif;
 }
 
+h1{
+  font-size: 35px;
+  font-family: 'lora', serif;
+}
+
+p{
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+}
+
 #header-icon{
   background-color:$charcoal;
   width: 80px;
@@ -30,5 +41,3 @@ html, body{
   height: 100%;
   margin-bottom: 1000px;
 }
-
-.base-background{}

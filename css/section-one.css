@@ -37,10 +37,7 @@
 #section-one .body-copy {
   display: inline-block;
   vertical-align: top;
-  font-size: 13px;
   padding: 10px;
-  line-height: 1.6;
-  letter-spacing: 0.8px;
   text-align: left; }
   #section-one .body-copy a:link, #section-one .body-copy a:visited {
     color: #ED0F38; }
