@@ -26,7 +26,8 @@
   z-index: 2;
   top: 600px;
   margin-bottom: 40px;
-  padding-bottom: 400px;
+  padding-bottom: 200px;
+  padding-top: 200px;
   text-align: center;
   display: block;
   background-image: url("../images/background.png");
