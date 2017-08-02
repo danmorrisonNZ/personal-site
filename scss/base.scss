@@ -41,3 +41,14 @@ p{
   height: 100%;
   margin-bottom: 1000px;
 }
+
+.arrow-down {
+  display: inline-block;
+  float: right;
+  margin-top: 12px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #f00;
+}

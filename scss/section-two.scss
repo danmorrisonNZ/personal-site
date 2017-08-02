@@ -15,6 +15,7 @@
   }
   p{
     margin-top: 0px;
+    margin-bottom: 60px;
     text-align: center;
   }
   a:link, a:visited{
@@ -48,6 +49,7 @@
     font-weight: normal;
     margin:10px;
     color: $charcoal;
+    display: inline-block;
   }
 }
 
@@ -60,4 +62,32 @@
   right: -10px;
   bottom: 7px;
   border: 2px solid $charcoal;
+}
+
+#objective{
+  .arrow-down{
+    border-top-color: $red;
+    opacity: 0.3;
+  }
+}
+
+#qualifications{
+  .arrow-down{
+    border-top-color: $green;
+    opacity: 0.3;
+  }
+}
+
+#history{
+  .arrow-down{
+    border-top-color: $orange;
+    opacity: 0.3;
+  }
+}
+
+#interests{
+  .arrow-down{
+    border-top-color: $yellow;
+    opacity: 0.3;
+  }
 }

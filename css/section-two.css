@@ -12,6 +12,7 @@
     margin-top: 70px; }
   .backing-square p {
     margin-top: 0px;
+    margin-bottom: 60px;
     text-align: center; }
   .backing-square a:link, .backing-square a:visited {
     color: #37A9CE; }
@@ -40,7 +41,8 @@
   .cv-content-container h4 {
     font-weight: normal;
     margin: 10px;
-    color: #666666; }
+    color: #666666;
+    display: inline-block; }
 
 .cv-content-container:before {
   content: " ";
@@ -51,5 +53,21 @@
   right: -10px;
   bottom: 7px;
   border: 2px solid #666666; }
+
+#objective .arrow-down {
+  border-top-color: #ED0F38;
+  opacity: 0.3; }
+
+#qualifications .arrow-down {
+  border-top-color: #10CE59;
+  opacity: 0.3; }
+
+#history .arrow-down {
+  border-top-color: #FF932D;
+  opacity: 0.3; }
+
+#interests .arrow-down {
+  border-top-color: #FFDD2B;
+  opacity: 0.3; }
 
 /*# sourceMappingURL=section-two.css.map */
