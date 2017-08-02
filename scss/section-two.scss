@@ -35,3 +35,29 @@
   background-color: #F6F6F5;
   border: 4px solid $blue;
 }
+
+.cv-content-container{
+  border: 2px solid $charcoal;
+  position: relative;
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+  background-color: #F6F6F5;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  h4{
+    font-weight: normal;
+    margin:10px;
+    color: $charcoal;
+  }
+}
+
+.cv-content-container:before{
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  left: 7px;
+  right: -10px;
+  bottom: 7px;
+  border: 2px solid $charcoal;
+}
