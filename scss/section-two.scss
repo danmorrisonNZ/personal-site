@@ -65,6 +65,25 @@
   border: 2px solid $charcoal;
 }
 
+.cv-content{
+  h4,p,li{
+    text-align: left;
+    margin: 10px 15px;
+  }
+  h4{
+    color: $blue;
+    margin-bottom: 5px;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+  }
+  p{
+    margin-top: 5px;
+  }
+  li{
+    margin: 0px 0px;
+  }
+}
+
 #objective{
   .arrow-down{
     border-top-color: $red;

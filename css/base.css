@@ -12,10 +12,10 @@ h1 {
   font-size: 35px;
   font-family: 'lora', serif; }
 
-p {
+p, li {
   font-size: 13px;
   line-height: 1.6;
-  letter-spacing: 0.8px; }
+  letter-spacing: 0.7px; }
 
 a:hover {
   cursor: pointer; }
