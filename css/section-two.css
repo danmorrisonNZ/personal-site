@@ -34,6 +34,8 @@
 .cv-content-container {
   border: 2px solid #666666;
   position: relative;
+  display: inline-block;
+  vertical-align: top;
   background-image: url("../images/background.png");
   background-repeat: repeat;
   background-color: #F6F6F5;
@@ -55,18 +57,24 @@
   bottom: 7px;
   border: 2px solid #666666; }
 
-.cv-content h4, .cv-content p, .cv-content li {
-  text-align: left;
-  margin: 10px 15px; }
-.cv-content h4 {
-  color: #37A9CE;
-  margin-bottom: 5px;
-  letter-spacing: 0.6px;
-  font-weight: bold; }
-.cv-content p {
-  margin-top: 5px; }
-.cv-content li {
-  margin: 0px 0px; }
+.cv-button {
+  cursor: pointer; }
+
+.cv-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out; }
+  .cv-content h4, .cv-content p, .cv-content li {
+    text-align: left;
+    margin: 10px 15px; }
+  .cv-content h4 {
+    color: #37A9CE;
+    margin-bottom: 5px;
+    letter-spacing: 0.6px; }
+  .cv-content p {
+    margin-top: 5px; }
+  .cv-content li {
+    margin: 0px 0px; }
 
 #objective .arrow-down {
   border-top-color: #ED0F38;
