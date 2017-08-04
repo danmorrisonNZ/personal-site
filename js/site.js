@@ -1,6 +1,7 @@
 window.onload = function(){
   var contactform =  document.getElementById('contactform');
   var cvSectionButtons = document.getElementsByClassName("cv-button");
+  var thanks =  document.getElementById('thanks');
   var i;
 
   for (i = 0; i < cvSectionButtons.length; i++) {
@@ -15,4 +16,13 @@ window.onload = function(){
   }
 
   contactform.setAttribute('action', '//formspree.io/' + 'danielroy' + '.' + 'morrison' + '@' + 'gmail' + '.' + 'com');
+
+  if (window.location.href.indexOf("#thanks") > -1){
+    thanks.style.display = "block"
+    window.onclick = hideThanksDiv;
+  }
+  function hideThanksDiv(){
+    console.log("yes")
+    thanks.style.display = "none"
+  }
 }

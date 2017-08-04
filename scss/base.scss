@@ -84,6 +84,7 @@ h4.quote{
 }
 
 #thanks{
+  display: none;
   position: fixed;
   background-color: $red;
   height: 100%;
@@ -92,10 +93,13 @@ h4.quote{
   z-index: 200;
   mix-blend-mode:hard-light;
   h2{
+    margin-top: 45vh;
+    letter-spacing: 0.6px;
+  }
+  h2,h4{
     color: white;
     text-align: center;
     line-height: 1.7;
-    letter-spacing: 0.6px;
-    margin-top: 45vh;
+    letter-spacing: 0.9px;
   }
 }
