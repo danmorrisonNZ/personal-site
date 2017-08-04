@@ -169,9 +169,14 @@
             <div class="row">
               <div id="form-container" class="col-lg-offset-2 col-lg-8">
                 <div class="row">
-                  <h3 class="col-lg-offset-2  col-lg-8">Keen to get into contact?<br>
+                  <h3 class="col-lg-offset-2 col-lg-8">Keen to get into contact?<br>
                   Flick me a message using this form, or if thats not your bag you can email or tweet at me using the details listed below.</h2>
                 </div>
+                <form action="https://formspree.io/your@email.com" method="POST">
+                  <input class="col-lg-offset-3 col-lg-6" type="email" name="email" placeholder="Your email">
+                  <textarea class="col-lg-offset-3 col-lg-6" name="message" placeholder="Your message"></textarea>
+                  <button type="submit">Send</button>
+                </form>
                 <div id="contact-items-container">
                   <p id="email" class="contact-items">danielroy.morrison@gmail.com</p>
                   <a href="https://twitter.com/Dan_Morrison" id="twitter" class="contact-items">@dan_morrison</a>

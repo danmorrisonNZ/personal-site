@@ -17,6 +17,12 @@ p, li {
   line-height: 1.7;
   letter-spacing: 0.6px; }
 
+input, textarea, button {
+  display: block; }
+
+input, textarea {
+  width: 100%; }
+
 a:hover {
   cursor: pointer; }
 
