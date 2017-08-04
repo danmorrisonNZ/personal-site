@@ -39,6 +39,9 @@
   vertical-align: top;
   padding: 10px;
   text-align: left; }
+  #section-one .body-copy p {
+    font-size: 15px;
+    line-height: 1.8; }
   #section-one .body-copy a:link, #section-one .body-copy a:visited {
     color: #ED0F38; }
 
