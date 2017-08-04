@@ -33,8 +33,9 @@
 #form-container{
   background-color: rgba(255,255,255,0.95);
   margin-top:150px;
-  margin-bottom:150px;
+  margin-bottom:100px;
   padding:50px 10px;
+  border-radius: 2px;
   h3{
     font-family: 'lora', serif;
     text-align: center;
@@ -48,7 +49,30 @@
     display: inline-block;
     padding-left: 20px;
   }
+  a, a:visited{
+    color: $green;
+  }
+  button,input,textarea{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    margin-top:10px !important;
+    border-radius: 2px;
+    border: none;
+  }
   button{
     margin: 0 auto;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: $green;
+  }
+  input,textarea{
+    border: 1px solid $charcoal;
+  }
+  textarea{
+    resize: none;
+    height: 200px;
   }
 }

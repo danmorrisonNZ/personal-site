@@ -82,3 +82,20 @@ h4.quote{
   margin-bottom: 5px;
   margin-top: 20px;
 }
+
+#thanks{
+  position: fixed;
+  background-color: $red;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 200;
+  mix-blend-mode:hard-light;
+  h2{
+    color: white;
+    text-align: center;
+    line-height: 1.7;
+    letter-spacing: 0.6px;
+    margin-top: 45vh;
+  }
+}

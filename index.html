@@ -172,9 +172,12 @@
                   <h3 class="col-lg-offset-2 col-lg-8">Keen to get into contact?<br>
                   Flick me a message using this form, or if thats not your bag you can email or tweet at me using the details listed below.</h2>
                 </div>
-                <form action="https://formspree.io/your@email.com" method="POST">
-                  <input class="col-lg-offset-3 col-lg-6" type="email" name="email" placeholder="Your email">
-                  <textarea class="col-lg-offset-3 col-lg-6" name="message" placeholder="Your message"></textarea>
+                <form id="contactform" method="POST">
+                  <input class="col-lg-offset-3 col-lg-6" type="email" name="_replyto" placeholder="Your email (so I can get back in contact with you)">
+                  <textarea class="col-lg-offset-3 col-lg-6" name="message" placeholder="How can I help?"></textarea>
+                  <input type="hidden" name="_subject" value="Website contact"/>
+                  <input type="hidden" name="_next" value="#thanks"/>
+                  <input type="text" name="_gotcha" style="display:none"/>
                   <button type="submit">Send</button>
                 </form>
                 <div id="contact-items-container">
@@ -186,6 +189,9 @@
           </div>
         </div>
       </div>
+    </div>
+    <div id="thanks">
+      <h2>Thanks for getting in touch!<br>I'll have a look and send you a reply shortly.</h2>
     </div>
   </body>
 </html>

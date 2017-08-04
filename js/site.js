@@ -1,4 +1,5 @@
 window.onload = function(){
+  var contactform =  document.getElementById('contactform');
   var cvSectionButtons = document.getElementsByClassName("cv-button");
   var i;
 
@@ -12,4 +13,6 @@ window.onload = function(){
       }
     }
   }
+
+  contactform.setAttribute('action', '//formspree.io/' + 'danielroy' + '.' + 'morrison' + '@' + 'gmail' + '.' + 'com');
 }

@@ -24,8 +24,9 @@
 #form-container {
   background-color: rgba(255, 255, 255, 0.95);
   margin-top: 150px;
-  margin-bottom: 150px;
-  padding: 50px 10px; }
+  margin-bottom: 100px;
+  padding: 50px 10px;
+  border-radius: 2px; }
   #form-container h3 {
     font-family: 'lora', serif;
     text-align: center;
@@ -36,7 +37,26 @@
   #form-container .contact-items {
     display: inline-block;
     padding-left: 20px; }
+  #form-container a, #form-container a:visited {
+    color: #10CE59; }
+  #form-container button, #form-container input, #form-container textarea {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px !important;
+    border-radius: 2px;
+    border: none; }
   #form-container button {
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #10CE59; }
+  #form-container input, #form-container textarea {
+    border: 1px solid #666666; }
+  #form-container textarea {
+    resize: none;
+    height: 200px; }
 
 /*# sourceMappingURL=section-three.css.map */
