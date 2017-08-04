@@ -50,6 +50,10 @@
     padding-left: 20px;
   }
   a, a:visited{
+    color: $red;
+    text-decoration: none;
+  }
+  #twitter{
     color: $green;
   }
   button,input,textarea{
