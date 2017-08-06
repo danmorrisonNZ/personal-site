@@ -1,6 +1,9 @@
 @media (max-width: 1023px) {
   #section-one-ipad {
-    display: none; } }
+    display: none; }
+
+  #section-one-iphone {
+    margin-top: 18vw !important; } }
 @media (max-width: 869px) {
   .cv-button h4 {
     width: 80%; } }
