@@ -6,7 +6,8 @@ html, body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: 'Work Sans', sans-serif; }
+  font-family: 'Work Sans', sans-serif;
+  color: #1E1E1E; }
 
 h1 {
   font-size: 35px;

@@ -31,6 +31,18 @@
     margin-top:193px;
     margin-left: 43px;
   }
+  .scroll-arrow{
+    float: none;
+    margin-top:455px;
+    border: solid $charcoal;
+    border-width: 0 6px 6px 0;
+    padding: 15px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    animation-name: fade;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }
   .body-copy-container{
     position: relative;
     z-index: 2;
@@ -63,9 +75,10 @@
   position: fixed;
   top: 10vh;
   text-align: center;
-  width: calc(100% - 9vh);
+  width: calc(100% - 10vh);
   font-size: 35px;
   font-family: 'Lora', serif;
+  z-index: 2;
 }
 
 .header-copy{
@@ -73,4 +86,12 @@
   padding: 0px 0px 0px 55px;
   margin:0;
   font-family: 'Lora', serif;
+  position: relative;
+  z-index: 3;
+}
+
+@keyframes fade {
+    0% {border-color: $charcoal;}
+    50% {border-color: transparent;}
+    100% {border-color: $charcoal;}
 }

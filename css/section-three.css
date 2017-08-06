@@ -10,6 +10,8 @@
   #section-three .backing-pattern {
     background-image: url("../images/pattern-2-grey.png");
     background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: 49px;
     opacity: 1; }
   #section-three .backing-pattern:nth-child(1) {
