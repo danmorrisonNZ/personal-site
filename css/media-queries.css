@@ -3,9 +3,41 @@
     display: none; }
 
   #section-one-iphone {
-    margin-top: 18vw !important; } }
+    margin-top: 18vw !important; }
+
+  #scroll-arrow-container {
+    top: 75vh !important; } }
 @media (max-width: 869px) {
   .cv-button h4 {
     width: 80%; } }
+@media (max-width: 767px) {
+  #section-one-iphone {
+    margin-left: 0; }
+
+  #section-two-content-container {
+    margin: 0 3% 0 -1%; } }
+@media (max-width: 482px) {
+  #section-one-macbook {
+    display: none; }
+
+  #section-one-iphone {
+    margin-top: -10vw !important;
+    margin-left: -23vw !important; }
+
+  #iphone-container {
+    flex-basis: 100%;
+    max-width: 100%; }
+
+  p, li {
+    font-size: 13px !important; }
+
+  .header-copy {
+    font-size: 20px; }
+
+  #section-one .image-container {
+    top: 35vh !important; }
+
+  #section-one .backing {
+    height: 55vw !important; } }
 
 /*# sourceMappingURL=media-queries.css.map */

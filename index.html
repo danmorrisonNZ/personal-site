@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Dan Morrison</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
   <link href="https://fonts.googleapis.com/css?family=Lora:400i,700|Work+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
   <link rel="stylesheet" href="css/base.css" type="text/css" >
@@ -15,29 +15,29 @@
   <script src="js/site.js"></script>
 </head>
   <body>
-    <div id="header-icon">
-      <img src="images/logo.png">
-    </div>
     <div id="main-content-container">
       <section id="section-one">
         <div class="backing">
-          <h1 class="header-copy">Daniel Morrison</h1>
-          <h1 class="header-copy">Creative Developer</h1>
+          <img id="header-icon" src="images/logo.png">
+          <div id="header-copy-container">
+            <h1 class="header-copy">Daniel Morrison</h1>
+            <h1 class="header-copy">Creative Developer</h1>
+          </div>
         </div>
         <div class="row">
           <h1 class="lead-title">Show 'em your stuff</h1>
-          <div class="col-xs-12 col-sm-10 col-md-offset-1 col-md-7 image-container">
+          <div class="col-xs-10 col-sm-10 col-md-offset-1 col-md-7 image-container">
             <image id="section-one-macbook" class="overlay" src="images/macbook.png">
           </div>
           <div class="col-md-offset-5 col-md-5 image-container">
             <image id="section-one-ipad" class="overlay" src="images/ipad.png">
           </div>
-          <div class="col-xs-4 col-sm-3 col-md-offset-1 col-md-2 image-container">
+          <div id="iphone-container" class="col-xs-3 col-sm-3 col-md-offset-1 col-md-2 image-container">
             <image id="section-one-iphone" class="overlay" src="images/iphone.png">
           </div>
         </div>
         <div class="row">
-          <div class="lead-title image-container">
+          <div id="scroll-arrow-container" class="lead-title image-container">
             <div class="arrow-down scroll-arrow"></div>
           </div>
         </div>
@@ -54,116 +54,118 @@
       </section>
       <section id="section-two">
         <div class="row">
-          <div class="backing-square col-md-12">
-              <h1 class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">A bit more of a professional run down on my background and skill sets.</h1>
-              <p class="col-sm-offset-3 col-sm-6 col-lg-offset-4 col-lg-4">This is basically a digital CV so if you're not into that sort of thing feel free to skip past. If you preffer a PDF version you can download one <a href="">here</a>, and <a href="https://linkedin.com">linkedin</a> has pretty much all the same information.</p>
-              <div id="objective" class="col-sm-offset-1 col-sm-5 col-lg-offset-2 col-lg-4 cv-content-container">
-                <div class="cv-button">
-                  <h4>Profile and Objective</h4>
-                  <div class="arrow-down"></div>
+          <div class="backing-square col-xs-12">
+              <div id="section-two-content-container">
+                <h1 class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">A bit more of a professional run down on my background and skill sets.</h1>
+                <p class="col-xs-12 col-sm-offset-3 col-sm-6 col-lg-offset-4 col-lg-4">This is basically a digital CV so if you're not into that sort of thing feel free to skip past. If you preffer a PDF version you can download one <a href="">here</a>, and <a href="https://linkedin.com">linkedin</a> has pretty much all the same information.</p>
+                <div id="objective" class="col-xs-12 col-sm-offset-1 col-sm-5 col-lg-offset-2 col-lg-4 cv-content-container">
+                  <div class="cv-button">
+                    <h4>Profile and Objective</h4>
+                    <div class="arrow-down"></div>
+                  </div>
+                  <div class="cv-content">
+                    <h4><b>Profile</b></h4>
+                    <p>A dedicated, enthusiastic Digital Designer and Developer, with development education from Enspiral Dev Academy and four years of design training in the form of a Massey University Bachelor of Design Degree with honours. Having spent the last two years at ShowGizmo honing my skills in Design and Front End Development, and gaining new ones in areas such as DevOps and Automation (for tasks related to both the development team and the wider business), I am now looking to make my next move ideally into a creative development role. Having the ability to both design and build products and services really excites me, and I am comfortable both leading and working within teams, as well as alone. I thoroughly enjoy building things and will often undertake personal design and development projects that have little commercial use but enhance my own knowledge of a particular topic or language.</p>
+                    <h4><b>Objective</b></h4>
+                    <p>Extending development and design skill sets through learning is a high priority in order to deliver a superior quality of work and continue
+                    to progress in both fields.</p>
+                    <p>Focus on creating the best solution for any
+                    given brief by exploring a range of mediums
+                    and disciplines. A variety of skills ranging from design and programming to print production
+                    allow me to fulfill requirements and achieve
+                    ideal outcomes.</p>
+                  </div>
                 </div>
-                <div class="cv-content">
-                  <h4><b>Profile</b></h4>
-                  <p>A dedicated, enthusiastic Digital Designer and Developer, with development education from Enspiral Dev Academy and four years of design training in the form of a Massey University Bachelor of Design Degree with honours. Having spent the last two years at ShowGizmo honing my skills in Design and Front End Development, and gaining new ones in areas such as DevOps and Automation (for tasks related to both the development team and the wider business), I am now looking to make my next move ideally into a creative development role. Having the ability to both design and build products and services really excites me, and I am comfortable both leading and working within teams, as well as alone. I thoroughly enjoy building things and will often undertake personal design and development projects that have little commercial use but enhance my own knowledge of a particular topic or language.</p>
-                  <h4><b>Objective</b></h4>
-                  <p>Extending development and design skill sets through learning is a high priority in order to deliver a superior quality of work and continue
-                  to progress in both fields.</p>
-                  <p>Focus on creating the best solution for any
-                  given brief by exploring a range of mediums
-                  and disciplines. A variety of skills ranging from design and programming to print production
-                  allow me to fulfill requirements and achieve
-                  ideal outcomes.</p>
+                <div id="interests" class="col-xs-12 col-sm-5 col-lg-4 cv-content-container">
+                  <div class="cv-button">
+                    <h4>Personal Interests</h4>
+                    <div class="arrow-down"></div>
+                  </div>
+                  <div class="cv-content">
+                    <p>Programming and Design are two things that I am highly passionate about in both a professional and personal context, with the possibilities at the intersection of the two areas being something that particularly excites me. I am an avid fan of both super and national rugby, and enjoy maintaining a relatively high standard of personal fitness when my daily schedule allows it. Gaming and technology have also been passions of mine over most of my life time, and are something that continue to excite me as I observe developments in both industries and explore them more from a design and programming standpoint.</p>
+                  </div>
                 </div>
+                <div id="qualifications" class="col-xs-12 col-sm-offset-1 col-sm-5 col-lg-offset-2 col-lg-4 cv-content-container">
+                  <div class="cv-button">
+                    <h4>Skills, Qualifications and Courses</h4>
+                    <div class="arrow-down"></div>
+                  </div>
+                  <div class="cv-content">
+                    <h4><b>Technical/Professional Knowledge</b></h4>
+                    <p>Practical programming experience, originally learning through Enspiral Dev Academy, then continuing during employment at ShowGizmo achieving solid skill sets in Ruby and Rails, Javascript and JQuery, Agile development practices, HTML and CSS, Engineering Empathy, Git, and more recently gaining some knowledge in Automation processes and DevOps .</p>
+                    <p>Iterative design and design thinking experience through education at Massey University, as well as self-initiated projects, print design experience at Out of the Box, and digital design experience at ShowGizmo.</p>
+                    <p>Recognised qualification as a Volunteer Fire Fighter, formally trained in the areas of basic skills, breathing apparatus operation and first aid, as well as further experience gained at emergency incidents. </p>
+                    <h4><b>Qualifications & Courses</b></h4><br>
+                    <h4>Education</h4>
+                    <p><b>Junior Developer (Enspiral Dev Academy) - 2015</b></p>
+                    <p>Enspiral Dev Academy is a bootcamp style computer programming course where over one thousand hours
+                     was spent learning hard skills in Ruby and Rails, Javascript and Jquery, Agile, HTML and CSS, Git, and TDD. Communication and Engineering Empathy were the key focus areas for soft skills, and help to integrate students into a realistic working environment, learning how to work in teams and deal with issues that might arise when working with others.</p>
+                    <p>The course had a focus on learning through doing, with ninety five percent of student time spent on hands on programming, and the further five percent in lectures pertinent to the days learning. This took place over an eighteen week period and was divided into four phases, with each phase building on the knowledge gained in the last.
+                    Phase zero was a part time remote working phase focusing on core skills and syntax familiarity needed during the full immersion part of the course.
+                    Phases one through three then took students from pairing and building basic terminal apps, to working with web frame works such as azure and rails, culminating in a full team final project which traverses multiple languages in order to build a market ready product.</p>
+                    <p><b>Bachelor of Design with Honours (Massey University) - 2012 Visual Communication Design, Graphic Design (Specialisation)</b></p>
+                    <p>Massey Universities Bachelor of Design degree focused on design thinking and offered a wide variety of design briefs in the form of university papers, ensuring that practical skills were gained and practiced alongside lectures and  academia. The degree culminated in a year long project in which students must research and solve a particular topic and problem using design thinking.</p>
+                    <p><b>NCEA level 3 - 2008</b></p>
+                    <h4><b>Training</b></h4>
+                    <p>F-Endorsement & OSH certificate (Forklift operation)</p>
+                    <p><b>NZ Fire Service -Volunteer</b></p>
+                    <p><i>Basic Firefighter - Phase 1 Nov 2006</i></p>
+                    <p>Training included:
+                    <ul>
+                      <li>Breathing Apparatus operation and wearing</li>
+                      <li>First Aid</li>
+                      <li>Basic fire ground skills</li>
+                    </ul>
+                    </p>
+                  </div>
+                </div>
+                <div id="history" class="col-xs-12 col-sm-5 col-lg-4 cv-content-container">
+                  <div class="cv-button">
+                    <h4>Employment History</h4>
+                    <div class="arrow-down"></div>
+                  </div>
+                  <div class="cv-content">
+                    <h4><b>Employer:</b>	ShowGizmo</h4>
+                    <h4><b>Dates:</b>	May 2015 to April 2017</h4>
+                    <h4><b>Positions Held and Accountabilities:</b></h4>
+                    <p><b>Web Developer</b></p>
+                    <ul>
+                      <li>Primarily responsible for maintainting, managing and developing the ShowGizmo mobile web app.</li>
+                       <li>Maintaining the ShowGizmo sales site (until March 2017) .</li><br>
+                      <li>Assisting with the scoping and design of feature work, including production of screen mock ups and user flow documents.</li>
+                       <li>Assisting with rafactoring and enhancement of ShowGizmos automation codebase.</li>
+                       <li>Assisting with tasks in ShowGizmos back end CMS as and when required, including mocking up visuals for feature work, developing enhancements, and bug fixing.</li>
+                       <li>Assisting with creation of whitelabel app graphics when required.</li>
+                    </ul>
+                    <p><b>Achievements:</b></p>
+                    <ul>
+                      <li>Successfully re-designed and re-developed the ShowGizmo mobile web app, bringing it up to a contemporary standard, removing the manual steps required to produce whitelabel web apps, and reducing the time taken to create whitelabels to zero in the process. </li><br>
+                      <li>Fully automated the process of creating marketing kits that were required for individual events (a set of four customised documents that are given to clients) saving the company thousands of dollars.</li>
+                       <li>Oversaw two major revisions to the company sales site, moving to an entirely new codebase during the second revision.</li><br>
+                      <li>Worked as part of a team to refactor the ShowGizmo automation codebase into a more managable and structured state.</li>
+                    </ul>
+                    <h4><b>Employer:</b>	Out of the Box</h4>
+                    <h4><b>Dates:</b>	Feb 2013 to Dec 2014</h4>
+                    <h4><b>Positions Held and Accountabilities:</b></h4>
+                    <p><b>Graphic Designer/Digital Print Supervisor</b></p>
+                    <ul>
+                      <li>Responsible for liaising with, and maintaining satisfaction levels of clients, in both print and design related tasks.</li><br>
+                      <li>Operating print machines in an efficient manner, ensuring that all jobs are produced on time, and production quality standards are met.</li>
+                       <li>Working with design and management team to drive branding initiatives within the business.</li>
+                    </ul>
+                    <p><b>Achievements:</b></p>
+                    <ul>
+                      <li>Worked as part of a team on the successful  re-branding of the business.</li>
+                       <li>Established a fantastic working relationship with both regular and casual clients.</li>
+                    </ul>
+                  </div>
+                </div>
+                <h4 class="quote col-md-offset-4 col-md-4">References are available on request.</h1>
+                <div class="col-md-4"></div>
+                <h3 class="quote col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">"Dan is objectively the greatest person you can hire for a position involving design and development, and an all around swell guy."</h1>
+                <div class="col-md-4"></div>
+                <p class="quote col-md-offset-4 col-md-4">~ My references probably</p>
               </div>
-              <div id="interests" class="col-sm-5 col-lg-4 cv-content-container">
-                <div class="cv-button">
-                  <h4>Personal Interests</h4>
-                  <div class="arrow-down"></div>
-                </div>
-                <div class="cv-content">
-                  <p>Programming and Design are two things that I am highly passionate about in both a professional and personal context, with the possibilities at the intersection of the two areas being something that particularly excites me. I am an avid fan of both super and national rugby, and enjoy maintaining a relatively high standard of personal fitness when my daily schedule allows it. Gaming and technology have also been passions of mine over most of my life time, and are something that continue to excite me as I observe developments in both industries and explore them more from a design and programming standpoint.</p>
-                </div>
-              </div>
-              <div id="qualifications" class="col-sm-offset-1 col-sm-5 col-lg-offset-2 col-lg-4 cv-content-container">
-                <div class="cv-button">
-                  <h4>Skills, Qualifications and Courses</h4>
-                  <div class="arrow-down"></div>
-                </div>
-                <div class="cv-content">
-                  <h4><b>Technical/Professional Knowledge</b></h4>
-                  <p>Practical programming experience, originally learning through Enspiral Dev Academy, then continuing during employment at ShowGizmo achieving solid skill sets in Ruby and Rails, Javascript and JQuery, Agile development practices, HTML and CSS, Engineering Empathy, Git, and more recently gaining some knowledge in Automation processes and DevOps .</p>
-                  <p>Iterative design and design thinking experience through education at Massey University, as well as self-initiated projects, print design experience at Out of the Box, and digital design experience at ShowGizmo.</p>
-                  <p>Recognised qualification as a Volunteer Fire Fighter, formally trained in the areas of basic skills, breathing apparatus operation and first aid, as well as further experience gained at emergency incidents. </p>
-                  <h4><b>Qualifications & Courses</b></h4><br>
-                  <h4>Education</h4>
-                  <p><b>Junior Developer (Enspiral Dev Academy) - 2015</b></p>
-                  <p>Enspiral Dev Academy is a bootcamp style computer programming course where over one thousand hours
-                   was spent learning hard skills in Ruby and Rails, Javascript and Jquery, Agile, HTML and CSS, Git, and TDD. Communication and Engineering Empathy were the key focus areas for soft skills, and help to integrate students into a realistic working environment, learning how to work in teams and deal with issues that might arise when working with others.</p>
-                  <p>The course had a focus on learning through doing, with ninety five percent of student time spent on hands on programming, and the further five percent in lectures pertinent to the days learning. This took place over an eighteen week period and was divided into four phases, with each phase building on the knowledge gained in the last.
-                  Phase zero was a part time remote working phase focusing on core skills and syntax familiarity needed during the full immersion part of the course.
-                  Phases one through three then took students from pairing and building basic terminal apps, to working with web frame works such as azure and rails, culminating in a full team final project which traverses multiple languages in order to build a market ready product.</p>
-                  <p><b>Bachelor of Design with Honours (Massey University) - 2012 Visual Communication Design, Graphic Design (Specialisation)</b></p>
-                  <p>Massey Universities Bachelor of Design degree focused on design thinking and offered a wide variety of design briefs in the form of university papers, ensuring that practical skills were gained and practiced alongside lectures and  academia. The degree culminated in a year long project in which students must research and solve a particular topic and problem using design thinking.</p>
-                  <p><b>NCEA level 3 - 2008</b></p>
-                  <h4><b>Training</b></h4>
-                  <p>F-Endorsement & OSH certificate (Forklift operation)</p>
-                  <p><b>NZ Fire Service -Volunteer</b></p>
-                  <p><i>Basic Firefighter - Phase 1 Nov 2006</i></p>
-                  <p>Training included:
-                  <ul>
-                    <li>Breathing Apparatus operation and wearing</li>
-                    <li>First Aid</li>
-                    <li>Basic fire ground skills</li>
-                  </ul>
-                  </p>
-                </div>
-              </div>
-              <div id="history" class="col-sm-5 col-lg-4 cv-content-container">
-                <div class="cv-button">
-                  <h4>Employment History</h4>
-                  <div class="arrow-down"></div>
-                </div>
-                <div class="cv-content">
-                  <h4><b>Employer:</b>	ShowGizmo</h4>
-                  <h4><b>Dates:</b>	May 2015 to April 2017</h4>
-                  <h4><b>Positions Held and Accountabilities:</b></h4>
-                  <p><b>Web Developer</b></p>
-                  <ul>
-                    <li>Primarily responsible for maintainting, managing and developing the ShowGizmo mobile web app.</li>
-                     <li>Maintaining the ShowGizmo sales site (until March 2017) .</li><br>
-                    <li>Assisting with the scoping and design of feature work, including production of screen mock ups and user flow documents.</li>
-                     <li>Assisting with rafactoring and enhancement of ShowGizmos automation codebase.</li>
-                     <li>Assisting with tasks in ShowGizmos back end CMS as and when required, including mocking up visuals for feature work, developing enhancements, and bug fixing.</li>
-                     <li>Assisting with creation of whitelabel app graphics when required.</li>
-                  </ul>
-                  <p><b>Achievements:</b></p>
-                  <ul>
-                    <li>Successfully re-designed and re-developed the ShowGizmo mobile web app, bringing it up to a contemporary standard, removing the manual steps required to produce whitelabel web apps, and reducing the time taken to create whitelabels to zero in the process. </li><br>
-                    <li>Fully automated the process of creating marketing kits that were required for individual events (a set of four customised documents that are given to clients) saving the company thousands of dollars.</li>
-                     <li>Oversaw two major revisions to the company sales site, moving to an entirely new codebase during the second revision.</li><br>
-                    <li>Worked as part of a team to refactor the ShowGizmo automation codebase into a more managable and structured state.</li>
-                  </ul>
-                  <h4><b>Employer:</b>	Out of the Box</h4>
-                  <h4><b>Dates:</b>	Feb 2013 to Dec 2014</h4>
-                  <h4><b>Positions Held and Accountabilities:</b></h4>
-                  <p><b>Graphic Designer/Digital Print Supervisor</b></p>
-                  <ul>
-                    <li>Responsible for liaising with, and maintaining satisfaction levels of clients, in both print and design related tasks.</li><br>
-                    <li>Operating print machines in an efficient manner, ensuring that all jobs are produced on time, and production quality standards are met.</li>
-                     <li>Working with design and management team to drive branding initiatives within the business.</li>
-                  </ul>
-                  <p><b>Achievements:</b></p>
-                  <ul>
-                    <li>Worked as part of a team on the successful  re-branding of the business.</li>
-                     <li>Established a fantastic working relationship with both regular and casual clients.</li>
-                  </ul>
-                </div>
-              </div>
-              <h4 class="quote col-md-offset-4 col-md-4">References are available on request.</h1>
-              <div class="col-md-4"></div>
-              <h3 class="quote col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">"Dan is objectively the greatest person you can hire for a position involving design and development, and an all around swell guy."</h1>
-              <div class="col-md-4"></div>
-              <p class="quote col-md-offset-4 col-md-4">~ My references probably</p>
           </div>
         </div>
         <section id="section-three">

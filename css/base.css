@@ -27,18 +27,6 @@ input, textarea {
 a:hover {
   cursor: pointer; }
 
-#header-icon {
-  background-color: #666666;
-  width: 80px;
-  margin-top: 40px;
-  position: fixed;
-  border-radius: 0px 2px 2px 0px;
-  z-index: 100; }
-  #header-icon img {
-    width: 50px;
-    padding: 6px 10px;
-    float: right; }
-
 #main-content-container {
   margin: 6vh;
   height: 100%;

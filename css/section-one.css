@@ -15,15 +15,17 @@
 #section-one .backing {
   padding-top: 40px;
   background-color: #ED0F38;
-  height: 55vh; }
+  height: 28vw; }
 #section-one #section-one-ipad {
   margin-top: 95px; }
 #section-one #section-one-iphone {
   margin-top: 14vw;
-  margin-left: 43px; }
+  margin-left: 4vw; }
+#section-one #scroll-arrow-container {
+  top: 80vh !important; }
 #section-one .scroll-arrow {
   float: none;
-  margin-top: 455px;
+  margin-top: 0px;
   border: solid #666666;
   border-width: 0 6px 6px 0;
   padding: 15px;
@@ -59,15 +61,27 @@
 .lead-title {
   position: fixed;
   top: 10vh;
+  left: 6vh;
   text-align: center;
-  width: calc(100% - 10vh);
+  width: calc(100% - 12vh);
   font-size: 35px;
   font-family: 'Lora', serif;
   z-index: 2; }
 
+#header-icon {
+  width: 10vh !important;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  z-index: 3;
+  margin: 10px; }
+
+#header-copy-container {
+  display: inline-block;
+  vertical-align: middle; }
+
 .header-copy {
   color: #F6F6F5;
-  padding: 0px 0px 0px 55px;
   margin: 0;
   font-family: 'Lora', serif;
   position: relative;
