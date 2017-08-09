@@ -42,8 +42,9 @@
   #form-container a, #form-container a:visited {
     color: #ED0F38;
     text-decoration: none; }
-  #form-container #twitter {
-    color: #10CE59; }
+  #form-container #twitter, #form-container #github {
+    color: #10CE59;
+    padding: 10px; }
   #form-container button, #form-container input, #form-container textarea {
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;

@@ -55,8 +55,9 @@
     color: $red;
     text-decoration: none;
   }
-  #twitter{
+  #twitter, #github{
     color: $green;
+    padding:10px;
   }
   button,input,textarea{
     font-family: 'Work Sans', sans-serif;
