@@ -3,9 +3,9 @@ window.onload = function(){
   var headerIcon =  document.getElementById('header-icon');
   var cvSectionButtons = document.getElementsByClassName("cv-button");
   var thanks =  document.getElementById('thanks');
+  var url = window.location.href
   var i;
 
-  headerIcon.onclick = scrollToTop;
 
   for (i = 0; i < cvSectionButtons.length; i++) {
     cvSectionButtons[i].onclick = function() {
@@ -20,16 +20,26 @@ window.onload = function(){
 
   contactForm.setAttribute('action', '//formspree.io/' + 'danielroy' + '.' + 'morrison' + '@' + 'gmail' + '.' + 'com');
 
-  if (window.location.href.indexOf("#thanks") > -1){
+  if (window.location.href.indexOf("#") > -1){
     thanks.style.display = "block"
-    window.onclick = hideThanksDiv;
-  }
-  function hideThanksDiv(){
-    console.log("yes")
-    thanks.style.display = "none"
+    readInAppropriateTextFile()
+    window.onclick = hideDivOverlay;
   }
 
-  function scrollToTop(){
-    window.scrollTo({top:0, left:0, behavior:'smooth'})
+  function readInAppropriateTextFile(){
+    fileName = url.split('#').pop()
+    xhr = new XMLHttpRequest();
+    xhr.open("GET", "./txtfiles/" + fileName + ".txt");
+    xhr.send();
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4)
+            thanks.innerHTML = xhr.responseText;
+    }
+  }
+
+  function hideDivOverlay(){
+    console.log("yes")
+    thanks.style.display = "none"
   }
 }
