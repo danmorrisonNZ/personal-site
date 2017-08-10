@@ -23,8 +23,8 @@ window.onload = function(){
 
   if (window.location.href.indexOf("#") > -1){
     // weirdness with forEach loop not working
-    coverLetter[0].style.display = "block"
-    coverLetter[1].style.display = "block"
+    coverLetter[0].style.visibility = "visible"
+    coverLetter[1].style.visibility = "visible"
     readInAppropriateTextFile()
     window.onclick = hideDivOverlay;
   }
@@ -42,6 +42,7 @@ window.onload = function(){
   }
 
   function hideDivOverlay(){
+    if (coverLetter[0].style.visibility == "visible") scroll(0,0)
     coverLetter[0].style.visibility = "hidden"
     coverLetter[0].style.opacity = 0
     coverLetter[1].style.visibility = "hidden"
