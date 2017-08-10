@@ -58,22 +58,35 @@ h4.quote {
   margin-bottom: 5px;
   margin-top: 20px; }
 
-#thanks {
-  display: none;
+#adaptive-overlay {
   position: fixed;
   background-color: #ED0F38;
+  opacity: 0.9;
   height: 100%;
   width: 100%;
   top: 0;
-  z-index: 200;
-  mix-blend-mode: hard-light; }
-  #thanks h2 {
-    margin-top: 45vh;
+  z-index: 200; }
+
+.cover-letter {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.3s, opacity 0.2s linear; }
+
+#overlay-copy {
+  padding: 20px;
+  top: 6vh;
+  z-index: 400;
+  position: absolute; }
+  #overlay-copy h2 {
     letter-spacing: 0.6px; }
-  #thanks h2, #thanks h4 {
+  #overlay-copy h3 {
+    font-size: 24px; }
+  #overlay-copy h2, #overlay-copy h3, #overlay-copy h4, #overlay-copy p {
     color: white;
-    text-align: center;
+    text-align: left;
     line-height: 1.7;
     letter-spacing: 0.9px; }
+  #overlay-copy p {
+    font-size: 15px; }
 
 /*# sourceMappingURL=base.css.map */

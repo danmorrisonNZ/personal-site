@@ -70,23 +70,39 @@ h4.quote{
   margin-top: 20px;
 }
 
-#thanks{
-  display: none;
+#adaptive-overlay{
   position: fixed;
   background-color: $red;
+  opacity: 0.9;
   height: 100%;
   width: 100%;
   top: 0;
   z-index: 200;
-  mix-blend-mode:hard-light;
+}
+.cover-letter{
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.3s, opacity 0.2s linear;
+}
+#overlay-copy{
+  // background-color: rgba(255,255,255,0.8);
+  padding:20px;
+  top: 6vh;
+  z-index: 400;
+  position: absolute;
   h2{
-    margin-top: 45vh;
     letter-spacing: 0.6px;
   }
-  h2,h4{
+  h3{
+    font-size:24px;
+  }
+  h2,h3,h4,p{
     color: white;
-    text-align: center;
+    text-align: left;
     line-height: 1.7;
     letter-spacing: 0.9px;
+  }
+  p{
+    font-size: 15px;
   }
 }

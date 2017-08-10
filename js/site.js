@@ -2,7 +2,8 @@ window.onload = function(){
   var contactForm =  document.getElementById('contactform');
   var headerIcon =  document.getElementById('header-icon');
   var cvSectionButtons = document.getElementsByClassName("cv-button");
-  var thanks =  document.getElementById('thanks');
+  var coverLetter =  document.getElementsByClassName('cover-letter');
+  var overlayCopy =  document.getElementById('overlay-copy');
   var url = window.location.href
   var i;
 
@@ -21,7 +22,9 @@ window.onload = function(){
   contactForm.setAttribute('action', '//formspree.io/' + 'danielroy' + '.' + 'morrison' + '@' + 'gmail' + '.' + 'com');
 
   if (window.location.href.indexOf("#") > -1){
-    thanks.style.display = "block"
+    // weirdness with forEach loop not working
+    coverLetter[0].style.display = "block"
+    coverLetter[1].style.display = "block"
     readInAppropriateTextFile()
     window.onclick = hideDivOverlay;
   }
@@ -34,12 +37,14 @@ window.onload = function(){
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4)
-            thanks.innerHTML = xhr.responseText;
+            overlayCopy.innerHTML = xhr.responseText;
     }
   }
 
   function hideDivOverlay(){
-    console.log("yes")
-    thanks.style.display = "none"
+    coverLetter[0].style.visibility = "hidden"
+    coverLetter[0].style.opacity = 0
+    coverLetter[1].style.visibility = "hidden"
+    coverLetter[1].style.opacity = 0
   }
 }

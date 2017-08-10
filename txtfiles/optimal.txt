@@ -1,0 +1,23 @@
+<h3>Hi</h3>
+<p>
+  I'm Dan Morrison, a Creative Developer currently based in Wellington looking for my next role.
+  Over the course of my career so far i've gained and practiced both design and programming skills and am currently
+  looking to continue developing both while getting a bit of experience in a UX focused role.<br>
+  Since entering the tech industry I have become incredibly passionate about how a great user experience can be the measure
+  that defines good products from the mediocre and would love an opportunity to gain some proper UX best practice knowledge
+  from the best in the business.
+</p>
+<p>
+  Optimal Workshop first came onto my radar last year while attending UXNZ. I was a web developer at ShowGizmo
+  (which was used as the event app for the conference) and also had the responsibility of primary product designer when scoping new features and creating user flows.<br>
+  UXNZ was an amazing experience and now that I'm ready to make my next career move, I cant think of a better
+  place and group of people to learn from as I continue to try and push my UX knowledge forward.
+  In return I can offer a large variety of skills (which you can read a bit more about after this), a high level of adaptability, and an incredible eagerness to learn.
+</p>
+<p>
+  If you think I'd be the kind of person who would fit well in your team then I'd love to talk about what a potential role could look like and any
+  openings you've got for someone with my particular skill set.<br>
+  Thanks for taking the time to read this and I look forward to hearing from you soon.<br><br>
+  Dan Morrison<br><br>
+  (You can click anywhere to get rid of the big red overlay)
+</p>
