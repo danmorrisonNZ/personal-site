@@ -1,0 +1,19 @@
+<h3>Hi</h3>
+<p>
+  I'm Dan Morrison, a Creative Developer currently based in Wellington.<br>
+  Over the course of my career so far i've gained and practiced both design and programming skills and am currently
+  looking to continue developing both while staying in the tech product world.<br>
+  I've spent the last two years as a web developer at ShowGizmo, utilising my full range of skills overhauling their web app and gaining new ones along the way.
+  Now that I'm on the hunt for a new role, I'd love to join the team at Xero to learn what it takes to create a world class product on a larger scale.
+</p>
+<p>
+  I've been a big admirer of the design culture at Xero for a long time now, and as someone with aspirations of one day running my own company,
+  I'm keen to see just how that's been achieved.<br>
+  From my side I bring a wide array of skill sets from both the design and programming industries, a high level of adaptability, and an incredible eagerness to learn.
+</p>
+<p>
+  If you think I'd be the kind of person who would fit well in your team then I'd love to talk further about how I can help.<br>
+  Thanks for taking the time to read this and I look forward to hearing from you soon.<br><br>
+  Dan Morrison<br><br>
+  (You can click anywhere to get rid of the big red overlay)
+</p>
