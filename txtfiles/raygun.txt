@@ -1,0 +1,19 @@
+<h3>Hi</h3>
+<p>
+  I'm Dan Morrison, a Creative Developer currently based in Wellington.<br>
+  Over the course of my career so far i've gained and practiced both design and programming skills and am currently
+  looking to continue developing both while staying in the tech product world.<br>
+  I've spent the last two years as a web developer at ShowGizmo, utilising my full range of skills overhauling their web app with a full re-design and re-development, and gaining new ones along the way.
+</p>
+<p>
+  I'm a big fan of designing and building digital products, and am also someone who gets a huge kick out of helping others (I was a volunteer fire fighter for six years and have just recently signed up to volunteer my time at the Creative Mornings Wellington events).
+  I've always imagined that I would continue working on tech products for the foreseeable future and lately I've realised that I could keep doing that while helping out the professional community i'm a part of by working on great tools like Raygun.
+  In my mind this makes Raygun an ideal next step in my career, where I can continue building my skills and hopefully have some real impact on how the industry operates.
+  As mentioned I bring both design and development skill sets to the table as well as a host of other skills that often combine to blur the lines between the two (things like scripting in Indesign to automate certain graphic creation processes).
+</p>
+<p>
+  If you think I'd be the kind of person who would fit well in your team then I'd love to talk further about how I can help.<br>
+  Thanks for taking the time to read this and I look forward to hearing from you soon.<br><br>
+  Dan Morrison<br><br>
+  (You can click anywhere to get rid of the big red overlay)
+</p>
