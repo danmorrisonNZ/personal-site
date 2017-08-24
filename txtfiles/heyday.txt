@@ -1,0 +1,19 @@
+<h3>Hi</h3>
+<p>
+  I'm Dan Morrison, a Creative Developer currently based in Wellington looking for my next role in Front End Development.
+  Over the course of my career so far i've gained and practiced both design and programming skills and right now I'm keen to keep learning
+  from people in the industry who are doing great work.<br>
+</p>
+<p>
+  Heyday came onto my radar a few years back as I was finishing my training at Dev Academy, when my dad of all people told me that he'd heard there was a potential role coming up with you
+  (for context he works in a pulp mill in Kawerau, hence my suprise that he had knowledge of the digital scene in Wellington).<br>
+  I ended up being offered a role at my last workplace, ShowGizmo, before I had time to send my application your way but have always remembered admiring the quality of work you have on show.
+  As mentioned above I've got both design and front end development skill sets that I've actively practiced over the last few years and a few extras as well such as a working
+  knowledge of ruby and rails, a bit of time spent refactoring an automation stack, and a pinch of dev ops knowledge thrown in for good measure.
+</p>
+<p>
+  If you'd like to bring me on board then I'd be stoked to have a chat and find out more about working with you, and am almost always available for calls or emails.<br>
+  Thanks for taking the time to read this and I look forward to hearing from you soon.<br><br>
+  Dan Morrison<br><br>
+  (You can click anywhere to get rid of the big red overlay)
+</p>
