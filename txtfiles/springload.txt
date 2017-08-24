@@ -1,0 +1,18 @@
+<h3>Hi</h3>
+<p>
+  I'm Dan Morrison, a Creative Developer currently based in Wellington looking for my next role in Front End Development.
+  Over the course of my career so far i've gained and practiced both design and programming skills and am currently
+  looking to continue developing both while working with others who are as passionate as I am about designing and building things in the digital space.<br>
+</p>
+<p>
+  I've been a big admirer of the people at Springload and the things created there for quite a number of years now (in particular the recent redesign for RNZ which is my main source of news),
+  and I'd love nothing more than to join your team to learn everything I can.<br>
+  As mentioned I bring a few years experience in digital design and development and my last role saw me wearing quite a few different hats, working on a range of things from web app development
+  to designing feature UI and user flows, as well as helping refactor an automation code base and getting a wee bit of experience in dev ops.
+</p>
+<p>
+  If any of that sounds good to you and you've got a spot for a front end dev with my skill set then I'd love to talk to you about working together.<br>
+  Thanks for taking the time to read this and I look forward to hearing from you soon.<br><br>
+  Dan Morrison<br><br>
+  (You can click anywhere to get rid of the big red overlay)
+</p>
