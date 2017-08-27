@@ -20,6 +20,9 @@
   #section-two-content-container {
     margin: 0 3% 0 -1%; } }
 @media (max-width: 482px) {
+  .header-copy {
+    font-size: 16px !important; }
+
   #section-one-macbook {
     display: none; }
 
