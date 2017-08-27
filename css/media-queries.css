@@ -9,7 +9,10 @@
     top: 75vh !important; } }
 @media (max-width: 869px) {
   .cv-button h4 {
-    width: 80%; } }
+    width: 80%; }
+
+  .lead-title {
+    font-size: 28px !important; } }
 @media (max-width: 767px) {
   #section-one-iphone {
     margin-left: 0; }
